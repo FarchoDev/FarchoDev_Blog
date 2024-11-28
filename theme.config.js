@@ -3,8 +3,8 @@ const YEAR = new Date().getFullYear()
 export default {
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
-      <time>{YEAR}</time> © Your Name.
-      <a href="/feed.xml">RSS</a>
+      <time>{YEAR}</time> © FarchoDev Blog
+      <a href="https://farcho-dev-docs.vercel.app/" target="_blank"><time>{YEAR}</time> © FarchoDev Docs</a>
       <style jsx>{`
         a {
           float: right;
